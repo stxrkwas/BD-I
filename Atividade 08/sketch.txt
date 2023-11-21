@@ -11,3 +11,9 @@ Entidades: Paciente, Telefone, Endereço, Convênio, Consultas, Exames;
    RG,
    tel_id(fk),
    endereco_id(fk);
+
+-- Telefone:
+-- Endereco:
+-- Convenio:
+-- Consultas:
+-- Exames:
