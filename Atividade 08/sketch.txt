@@ -1,0 +1,13 @@
+Entidades: Paciente, Telefone, Endereço, Convênio, Consultas, Exames;
+
+-- Paciente: 
+   
+   Numero_paciente(id),
+   Nome,
+   Data_nasc,
+   Sexo,
+   convênio_id(fk),
+   Estado_civil,
+   RG,
+   tel_id(fk),
+   endereco_id(fk);
