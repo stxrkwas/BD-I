@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2023-11-21T13:31:55.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RLExDNjVEwngGADeveLV" version="22.1.3" type="github">
+  <diagram name="Página-1" id="uQlUKMu0tkUeGVc6h_el">
+    <mxGraphModel dx="1059" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zslL6-YAs7fva3rbugyX-1" value="" style="line;strokeWidth=2;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="560" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zslL6-YAs7fva3rbugyX-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot; face=&quot;Poppins&quot; style=&quot;font-size: 27px;&quot;&gt;Atividade 08 -&amp;nbsp;MER + Normalização de Bancos&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#be9bf3;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="86" y="40" width="655" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
