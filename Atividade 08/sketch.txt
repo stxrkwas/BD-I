@@ -1,4 +1,8 @@
-Entidades: Paciente, Telefone, Endereço, Convênio, Consultas, Exames;
+//Esse é só um rascunho do banco de dados
+
+Entidades: Paciente, Telefone, Endereço, Convênio, Consultas, Exames, *Medico;
+
+- Indica uma possibilidade: *
 
 -- Paciente: 
    
@@ -6,14 +10,53 @@ Entidades: Paciente, Telefone, Endereço, Convênio, Consultas, Exames;
    Nome,
    Data_nasc,
    Sexo,
-   convênio_id(fk),
+   num_convenio(fk),
    Estado_civil,
    RG,
    tel_id(fk),
    endereco_id(fk);
 
+/--------------------------------------------------------------------------/
+
 -- Telefone:
+
+   tel_id(pk),
+   tipo_tel,
+   telefone;
+
+/-------------------------------------------------------------------------/   
+
 -- Endereco:
+
+   endereco_id(pk),
+   endereco,
+   tipo_endereco; 
+   
+
+/-------------------------------------------------------------------------/   
+
 -- Convenio:
+
+   num_convenio(pk),
+   nome,
+   tipo_convenio,
+   cobertura,
+   precos;
+
+/-------------------------------------------------------------------------/   
+
 -- Consultas:
+
+   num_consulta(pk),
+   data_con,
+   medico,
+   diagnostico;
+
+/-------------------------------------------------------------------------/   
+
 -- Exames:
+
+   num_consulta(fk),
+   exame,
+   data_exame,
+   resultados;
