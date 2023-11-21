@@ -60,3 +60,13 @@ Entidades: Paciente, Telefone, Endereço, Convênio, Consultas, Exames, *Medico;
    exame,
    data_exame,
    resultados;
+
+/-------------------------------------------------------------------------/ 
+
+-- Medico: 
+
+   num_medico(pk),
+   nome,
+   num_registro,
+   especialidadeo;
+
